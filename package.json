@@ -1,0 +1,30 @@
+{
+  "name": "@waylaidwanderer/sumika-types",
+  "version": "0.1.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "description": "TypeScript types and schemas for Sumika, a stateful API server for agents compatible with the Agent Client Protocol (ACP).",
+  "keywords": [],
+  "author": "Joel (waylaidwanderer)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waylaidwanderer/sumika-types.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "packageManager": "pnpm@10.16.1",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "zod": "^4.0.0",
+    "@hono/zod-openapi": "^1.1.0"
+  }
+}
