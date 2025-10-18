@@ -4,7 +4,9 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "README.md",
+    "LICENSE"
   ],
   "description": "TypeScript types and schemas for Sumika, a stateful API server for agents compatible with the Agent Client Protocol (ACP).",
   "keywords": [],
